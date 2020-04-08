@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+/*header-section*/
+
+.header-section {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/*navigation section*/
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.container-fluid {
+    padding: 3% 10% 8%;
+    color: #fff;
+    text-align: center;
+}
+/* recent-properties*/
+
+
+.heading-recent{
+    text-align: center;
+    margin-top: 40px;
+}
+.recent-img{
+    margin: 50px;
+    text-align: center;
+}
+
+/*features*/
+
+.features{
+    background-image: url(img/service-bg.jpg);
+    padding: 4.25%;
+    margin-top: 10%;
+    color: #fff;
+    text-align: center;
+}
+.feature-heading{
+    margin: 4.5%;
+ }
+/*property-list*/
+.property-list-div{
+    margin: 5%;
+}
+.col-md-4{
+    
+    text-align: center;
+    padding:2%;
+}
+.card-inside-left{
+    text-align: left;
+}
+.card-inside-right{
+    text-align: right;
+}
+.card-img-top{
+    height: 200px;
+}
+
+
+
+
+/*testimonials*/
+.testimonials {
+
+    text-align: center;
+    background-image: url(img/review-bg.jpg);
+    color: #fff;
+
+}
+
+.carousel-item {
+    padding: 7% 20%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#footer {
+
+    text-align: center;
+    background-color: rgba(173, 173, 173, 0.39);
+    color: #000;
+
+    padding: 7% 15%;
+}
+
+.footer-icon {
+    font-size: 250%;
+    margin: 1.5%;
+}
+
+
+/*from now feature listing css*/
+
+/*featurelisting-header*/
+
+.featurelisting-header{
+    background-image: url(img/page-top-bg.jpg);
+    height: 350px;
+}
+
+.form-class{
+    margin: 10%;
+    font-size: 2rem;
+    font-weight: 600;
+}
